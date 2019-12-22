@@ -1158,7 +1158,7 @@ section.lazy-placeholder:after {
   color: #767676;
 }
 .cid-rLmaSPzItg {
-  background-image: url("../../../assets/images/background3.jpg");
+  background-color: #ffffff;
 }
 .cid-rLmaSPzItg h1 {
   color: #616161;
@@ -1170,6 +1170,9 @@ section.lazy-placeholder:after {
 }
 .cid-rLmaSPzItg .mbr-section-subtitle {
   font-style: italic;
+}
+.cid-rLmaSPzItg H3 {
+  color: #232323;
 }
 .cid-rLmhRIMv5B {
   padding-top: 75px;
