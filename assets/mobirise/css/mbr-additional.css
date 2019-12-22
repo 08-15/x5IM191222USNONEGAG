@@ -1226,14 +1226,15 @@ section.lazy-placeholder:after {
   background-color: #ffffff;
 }
 .cid-rLmrDC5QhI .line {
-  background-color: #767676;
-  color: #767676;
+  background-color: #c1c1c1;
+  color: #c1c1c1;
   align: center;
   height: 2px;
   margin: 0 auto;
 }
 .cid-rLmrDC5QhI .section-text {
   padding: 2rem 0;
+  color: #767676;
 }
 .cid-rLmrDC5QhI .inner-container {
   margin: 0 auto;
