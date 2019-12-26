@@ -1118,17 +1118,25 @@ section.lazy-placeholder:after {
 .cid-rLmd2iCikw .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-rLma8YUua6 {
+.cid-rLKNOM3RLp {
   background-image: url("../../../assets/images/fotolia-128108866-l-2000x1349.jpg");
 }
-.cid-rLma8YUua6 P {
+.cid-rLKNOM3RLp h1 {
+  color: #616161;
+}
+.cid-rLKNOM3RLp h2,
+.cid-rLKNOM3RLp h3,
+.cid-rLKNOM3RLp p {
   color: #767676;
 }
-.cid-rLma8YUua6 H3 {
+.cid-rLKNOM3RLp .mbr-section-subtitle {
+  font-style: italic;
+}
+.cid-rLKNOM3RLp .mbr-text,
+.cid-rLKNOM3RLp .mbr-section-btn {
   color: #ffffff;
 }
-.cid-rLma8YUua6 .mbr-text,
-.cid-rLma8YUua6 .mbr-section-btn {
+.cid-rLKNOM3RLp H3 {
   color: #ffffff;
 }
 .cid-rLmayJ5qE3 {
