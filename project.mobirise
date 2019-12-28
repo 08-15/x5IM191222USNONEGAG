@@ -51,7 +51,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 34,
+    "uniqCompNum": 39,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png"
   },
@@ -713,9 +713,62 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Besides the main menu, each assigned account has its own menu for individual settings. Thus, you can enjoy individual mode settings, different currency responders etc. for any of your registered accounts. Just click on the account name to open the individual account menu. It shows:\n</p><p><b>1.\tAccount name\n</b></p><p><b>2.\tUSD Responder\n</b></p><p><b>3.\tEUR Responder\n</b></p><p><b>4.\tRegister Radar\n</b></p><p><b>5.\tFunction Settings\n</b></p><p><b>6.\tAccount Settings</b></p><p><b><br></b></p><p><b>\n</b></p><p><b>● Account name:</b> Shows the name of account the menu servs.\n</p><p><b>● USD Responder:</b> Select the best matching Responder for Paid Mail function by currency and language (if you click on one of the Images, a larger view will pop out).\n</p><p><b>● EUR Responder:</b> Select the best matching Responder for Paid Mail function by currency and language (if you click on one of the Images, a larger view will pop out).\n</p><p><b>● Radar:</b> Our Radar table shows all recorded accounts of your mail community. Besides the email account names there are 3 columns, A for ACTIVE accounts, B for BLOCKED accounts and → for VIM forwarding. \n</p><p>After installation the APP looks for the mail addresses which are in the respective account. Those addresses will be recorded as ACTIVE users and will not be recognized in the APP handling at all. If a mail is received from an unrecorded user, that mail account will be recorded only in the first step, means added on the Radar list. At that stage it is not classified as ACTIVE or BLOCKED, and further activities depending on the account Mode setting. It is always possible, to change the status, e.g. with the related radio buttons it could be selected as ACTIVE or BLOCKED or even changed between the 2 possibilities. One more feature comes with the checkbox in column →: If checked, mails received from that sender will be forwarded to the VIM email address (if VIM address is recorded on the dashboard). If the sender should not be forwarded anymore, simply uncheck the checkbox. Please note that sender must be set as ACTIVE to realize forwarding.  \n</p><p><b>● Function Settings:</b> Any account has its own individual setting and user can select between:\n</p><p>a.\t<i>Responder Mode</i>: If a not registered sender sends an email, Spam-X will reply with the selected Responder to ask for payment. If it is a serious sender with an important message, the sender can pay by PayPal and thereafter, the initial message will be forwarded as a “Paid-message” in the save “X-Ray” format, without active hyperlinks, to protect you from dangerous activities. If the sender should be part of your mail system, just return the X-Ray message to activate the sender. Thereafter, the original message will be delivered in your inbox. If you don’t like this sender to be part of your community, just delete the message. That sender will have a second chance to send you one more mail. Thereafter the address will blocked by the 3rd and final approach. \n</p><p>\n</p><p>b.\t<i>Monitor Mode</i>: This mode will not respond on incoming mails for not registered senders but will forward the original mail as an X-Ray message into your mail box. Now you can check the content. If the message is welcomed, you can Register the sender with just two clicks: 1. Click reply; 2. Click send. That will activate the sender and return the original message back into your inbox. That easy! Please note: If you do not take any action on an incoming but not registered sender’s mail (or just delete it), the sender has a second chance to write to you. If again, you take no action, this address will be blocked automatically, if there is a third attempt.\n</p><p>\n</p><p>c.\t<i>Auto-Block</i>: By default, the Auto-Block function will be “ON”.  As the result, any not registered sender will we blocked once Spam-X detect the sender’s third mail in the incoming folder. Therefore, your Spam-X is “learning by doing” and your incoming spam will decrease dramatically, and no special activities are needed! However, if you prefer not to block any unregistered sender, you can set the function to “OFF”. Due to the protection mode, you will get any mail as a safe X-ray preview. \n</p><p>\n</p><p>d.\t<i>Message format</i>: By default, Spam-X works with X-ray messages and the you see the whole content on one glance (like a luggage check at the airport). That function needs HTML format, nowadays the common standard for most mail users. However, there is the possibility to switch to text mode and depending on the mail clients involved, it will be just plain text content. The links in those messages are neutralized and will not work for the initial target, to protect from malware traps. \n</p><p><b><br></b></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Besides the main menu, each assigned account has its own menu for individual settings. Thus, you can enjoy individual mode settings, different currency responders etc. for any of your registered accounts. Just click on the account name to open the individual account menu. It shows:\n</p><p><b>1.\tAccount name\n</b></p><p><b>2.\tUSD Responder\n</b></p><p><b>3.\tEUR Responder\n</b></p><p><b>4.\tRegister Radar\n</b></p><p><b>5.\tFunction Settings\n</b></p><p><b>6.\tAccount Settings</b></p><p><b><br></b></p><p><b>\n</b></p><p><b>● Account name:</b> Shows the name of account the menu servs.\n</p><p><b>● USD Responder:</b> Select the best matching Responder for Paid Mail function by currency and language (if you click on one of the Images, a larger view will pop out).\n</p><p><b>● EUR Responder:</b> Select the best matching Responder for Paid Mail function by currency and language (if you click on one of the Images, a larger view will pop out).\n</p><p><b>● Radar:</b> Our Radar table shows all recorded accounts of your mail community. Besides the email account names there are 3 columns, A for ACTIVE accounts, B for BLOCKED accounts and → for VIM forwarding. \n</p><p>After installation the APP looks for the mail addresses which are in the respective account. Those addresses will be recorded as ACTIVE users and will not be recognized in the APP handling at all. If a mail is received from an unrecorded user, that mail account will be recorded only in the first step, means added on the Radar list. At that stage it is not classified as ACTIVE or BLOCKED, and further activities depending on the account Mode setting. It is always possible, to change the status, e.g. with the related radio buttons it could be selected as ACTIVE or BLOCKED or even changed between the 2 possibilities. One more feature comes with the checkbox in column →: If checked, mails received from that sender will be forwarded to the VIM email address (if VIM address is recorded on the dashboard). If the sender should not be forwarded anymore, simply uncheck the checkbox. Please note that sender must be set as ACTIVE to realize forwarding.  \n</p><p><br></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "rLmx1KRKNp",
           "_anchor": "content1-e",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when not (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content6",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"95\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/191227-radar1-492x744.png\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Radar\n</b><br>If you click on \"Radar\", a table popup, showing the registered sender addresses. \n<br>There are three columns, to set the function for each sender address:\n<br><br>A: If selected, the sender is active <br>\n<br>B: If selected, the sender is blocked\n<br><br><b>→</b>: If checked, the sender is selected for secret forwarding&nbsp;<br><br>Please note: If you click on the header “Mail Address”, the table will sort in alphabetic order.<br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content6-y",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rLWvXAtbEV",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -765,14 +818,93 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><br></p><p><b>● Function Settings:</b> Any account has its own individual setting and user can select between:\n</p><p>a.\t<i>Responder Mode</i>: If a not registered sender sends an email, Spam-X will reply with the selected Responder to ask for payment. If it is a serious sender with an important message, the sender can pay by PayPal and thereafter, the initial message will be forwarded as a “Paid-message” in the save “X-Ray” format, without active hyperlinks, to protect you from dangerous activities. If the sender should be part of your mail system, just return the X-Ray message to activate the sender. Thereafter, the original message will be delivered in your inbox. If you don’t like this sender to be part of your community, just delete the message. That sender will have a second chance to send you one more mail. Thereafter the address will blocked by the 3rd and final approach. \n</p><p>\n</p><p>b.\t<i>Monitor Mode</i>: This mode will not respond on incoming mails for not registered senders but will forward the original mail as an X-Ray message into your mail box. Now you can check the content. If the message is welcomed, you can Register the sender with just two clicks: 1. Click reply; 2. Click send. That will activate the sender and return the original message back into your inbox. That easy! Please note: If you do not take any action on an incoming but not registered sender’s mail (or just delete it), the sender has a second chance to write to you. If again, you take no action, this address will be blocked automatically, if there is a third attempt.\n</p><p>\n</p><p>c.\t<i>Auto-Block</i>: By default, the Auto-Block function will be “ON”.  As the result, any not registered sender will we blocked once Spam-X detect the sender’s third mail in the incoming folder. Therefore, your Spam-X is “learning by doing” and your incoming spam will decrease dramatically, and no special activities are needed! However, if you prefer not to block any unregistered sender, you can set the function to “OFF”. Due to the protection mode, you will get any mail as a safe X-ray preview. \n</p><p>\n</p><p>d.\t<i>Message format</i>: By default, Spam-X works with X-ray messages and the you see the whole content on one glance (like a luggage check at the airport). That function needs HTML format, nowadays the common standard for most mail users. However, there is the possibility to switch to text mode and depending on the mail clients involved, it will be just plain text content. The links in those messages are neutralized and will not work for the initial target, to protect from malware traps. \n</p><p><b><br></b></p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-12",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rLWPIH10fz",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when not (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content6",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"95\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/function-settings-492x744.png\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Function Settings:</b>\n<br>Here you can chose between the two operation modes (PRO version only):\n<br><br>● Paid Message Mode\n<br><br>● Monitor Mode\n<br><br>● Auto-Block\n<br><br>● Message Format&nbsp;<br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content6-11",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rLWOv2YqTw",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
             ".mbr-section-subtitle": {
               "color": "#767676"
             }
           },
           "_name": "content4",
           "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">Advanced Installation Manual</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rLJL6gH5K8",
-          "_anchor": "content4-k",
+          "_anchor": "content4-10",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rLWKUoukOp",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1076,7 +1208,7 @@
             }
           },
           "_name": "content6",
-          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"95\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/screen-settings-1-436x659.png\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Advanced settings:<br>1. Check whether you made a mistake with the password and if so, correct and click \"SAVE\".<br>2. If not, check with the test buttons, whether the problem is on TX or RX. Normally it is OK to fix only the not working setting.<br>3. If e.g. RX is not working, it could be a wrong server name, and/or a wrong server port. For names, you must check with your mail provider's account settings, for ports, just try all pulldown options (after each change, check with test button again). Vise-versa handle the other port if needed.<br><br>Please note: You can always get back to the setting of each account with the menue function \"Account settings\", if a setting has changed (e.g. password) or, if you like to set a complete new account. &nbsp;Click the bin icon to delete and register it new (the first leading account cannot be changed).</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"95\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/screen-settings-1-436x659.png\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Advanced settings:</b><br>1. Check whether you made a mistake with the password and if so, correct and click \"SAVE\".<br>2. If not, check with the test buttons, whether the problem is on TX or RX. Normally it is OK to fix only the not working setting.<br>3. If e.g. RX is not working, it could be a wrong server name, and/or a wrong server port. For names, you must check with your mail provider's account settings, for ports, just try all pulldown options (after each change, check with test button again). Vise-versa handle the other port if needed.<br><br>Please note: You can always get back to the setting of each account with the menue function \"Account settings\", if a setting has changed (e.g. password) or, if you like to set a complete new account. &nbsp;Click the bin icon to delete and register it new (the first leading account cannot be changed).</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rLJUQrV3JI",
           "_anchor": "content6-q",
           "_protectedParams": [],
